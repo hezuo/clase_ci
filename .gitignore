@@ -7,3 +7,7 @@
 /vendor/
 /.idea/
 /composer.lock
+/.project
+/.buildpath
+.DS_Store
+/.settings
