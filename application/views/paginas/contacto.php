@@ -1,6 +1,6 @@
 <?php echo validation_errors(); ?>
 
-<?php echo form_open('procesar/formulario'); ?>
+<?php echo form_open('PaginaController/contacto'); ?>
 <?php echo form_label('Remitente', 'remitente'); ?>
 <?php echo form_input($remitente); ?>
 <?php echo form_label('Correo', 'correo'); ?>

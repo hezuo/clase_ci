@@ -25,8 +25,8 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="<?=index_page();?>">Home</a></li>
-                <li><a href="#">Acerca</a></li>
+                <li class="active"><a href="<?=site_url();?>">Home</a></li>
+                <li><a href="<?=site_url("Admin") ?>">admin</a></li>
                 <li><a href="<?=site_url("contacto") ?>">Contacto</a></li>
             </ul>
         </div><!--/.nav-collapse -->
